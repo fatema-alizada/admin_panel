@@ -1,0 +1,8 @@
+install laravel 8:
+==============================================
+composer create-project --prefer-dist laravel/laravel blog
+==============================================
+composer require laravel/jetstream
+php artisan jetstream:install livewire
+php artisan migrate
+==============================
